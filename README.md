@@ -1,4 +1,4 @@
-# data-structures-and-algorithms
+
 
 # Data Structures And Algorithm
 
@@ -6,4 +6,4 @@
 
 
 
-#### This reprository has Java Code file Implementing Various Data Structures and Algorithms in a simplified approach.
+#### This repository includes Java code files having implementations of various Data Structures and Algorithms in a simplified approach.
