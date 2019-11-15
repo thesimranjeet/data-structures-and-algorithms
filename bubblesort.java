@@ -1,4 +1,3 @@
-package DSA;
 
 class bubblesort{
     public static void main(String[] args){
