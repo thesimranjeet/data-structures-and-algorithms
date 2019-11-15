@@ -7,11 +7,14 @@ class SelectionSort{
         int n=a.length;
 
         for(int i=n-1;i>0;i--){
-            for(int j=0;j<i;j++){
-                if(a[j]>a[j+1]){
-                    swap(a, i, j);
+            int j,m=0;
+            for(j=0;j<i;j++){
+                if(a[m]<a[j]){
+                    m=j;
                 }
             }
+
+            swap(a, i, m);
         }
 
         for(int x:a){
