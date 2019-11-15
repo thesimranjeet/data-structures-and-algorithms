@@ -9,11 +9,19 @@ class InsertionSort{
 
         for(int i=1;i<n;i++){
             int t=a[i];
-            for(j=i;j>0;j--){
-                if(a[i-1]>t){
-                    a[i]=a[i-1];
+            int j;
+            for(j=i;j>0 ;j--){
+                if(a[j-1]>t){
+                    a[j]=a[j-1];
+                    continue;
                 }
+                else{
+                    break;
+                }
+
             }
+            a[j]=t;
+
 
             // swap(a, i, m);
         }
