@@ -24,7 +24,7 @@ class QuickSort{
 
     }
 
-    public static void partition(int [] a, int start, int end){
+    public static int partition(int [] a, int start, int end){
         int pivot=a[start];
         int i=start;
         int j=end;
