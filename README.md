@@ -2,7 +2,7 @@
 
 # Data Structures And Algorithm
 
-### By [thesimranjeet ](https://github.com/thesimranjeet)
+##### By [thesimranjeet ](https://github.com/thesimranjeet)
 
 
 
